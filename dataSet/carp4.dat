@@ -1,0 +1,85 @@
+VERTICES :  357
+ARISTAS_REQ :   225
+ARISTAS_NOREQ :    306
+VEHICULOS :  10
+CAPACIDAD :   3000
+TIPO_COSTES_ARISTAS : EXPLICITOS
+COSTE_TOTAL_REQ :   567634
+LISTA_ARISTAS_REQ :
+114 0 ( 120, 121) coste    13 demanda     2
+167 -1 ( 160, 105) coste    19 demanda     2
+168 -1 ( 105, 160) coste    19 demanda     2
+175 0 ( 163, 164) coste    73 demanda     6
+176 0 ( 165, 166) coste    48 demanda     4
+177 1 ( 166, 164) coste    42 demanda     4
+178 1 ( 164, 165) coste    53 demanda     5
+191 -1 ( 151, 177) coste    12 demanda     2
+192 1 ( 151, 177) coste    15 demanda     2
+193 -1 ( 117, 178) coste    42 demanda     4
+194 1 ( 118, 178) coste    46 demanda     4
+195 -1 ( 179, 105) coste    23 demanda     2
+196 -1 ( 105, 179) coste    20 demanda     2
+209 0 (  56,  53) coste    14 demanda     2
+210 0 ( 190, 191) coste    42 demanda     4
+211 0 ( 192, 193) coste   713 demanda    58
+519 0 ( 329, 335) coste  6121 demanda   171
+523 0 (  44, 313) coste 10951 demanda   877
+
+.............................................
+524 0 ( 119, 203) coste  8448 demanda   676
+525 0 ( 211, 170) coste  6880 demanda   348
+526 0 ( 269, 231) coste  4621 demanda   320
+527 0 ( 354, 276) coste  9253 demanda   741
+529 0 ( 207, 355) coste  7673 demanda   174
+LISTA_ARISTAS_NOREQ :
+0  -1 (   1,   2) coste    97
+1  1 (   1,   3) coste    44
+2  1 (   4,   5) coste    39
+3  1 (   5,   6) coste   131
+4  0 (   7,   8) coste    17
+5  0 (   9,  10) coste    13
+6  0 (  11,  12) coste    12
+135  0 ( 132, 134) coste     7
+136  1 ( 129,  74) coste    17
+137  1 ( 135, 129) coste    16
+138  1 ( 136, 137) coste    53
+139  1 ( 137, 138) coste    76
+140  1 ( 138, 137) coste    68
+141  -1 ( 139, 140) coste    91
+142  -1 ( 141, 142) coste    65
+198  1 ( 182, 180) coste    47
+
+..................................
+410  -1 ( 240,   9) coste  3324
+520  0 ( 150, 138) coste  3382
+521  0 ( 355, 307) coste  1766
+522  0 ( 176,  97) coste  2134
+528  0 ( 110, 111) coste  7419
+530  0 ( 300, 182) coste  7362
+DEPOSITO : 213
+DEPOSITO : 226
+DEPOSITO : 316
+DEPOSITO : 330
+MANDATORY :
+(  26,  23)
+(  33, 101)
+(  41,  43)
+(  42, 307)
+(  67,  69)
+.................................
+( 361,  63)
+( 363,  62)
+( 412, 410)
+( 418,  39)
+NOTURN :
+(   1, 118)
+(  14, 116)
+................................ 
+( 240, 239)
+( 241, 242)
+( 249, 250)
+( 293, 145)
+( 299, 356)
+( 321,  66)
+( 325,  22)
+( 333, 141)

@@ -26,3 +26,17 @@
 *.exe
 *.out
 *.app
+
+# others
+*.iab
+*.iad
+*.imb
+*.imd
+*.pfi
+*.po
+*.pr
+*.pri
+*.ps
+*.searchresults
+*.wk3
+*.cbp

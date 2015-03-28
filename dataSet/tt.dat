@@ -1,0 +1,15 @@
+ NOMBRE : gdb2
+ COMENTARIO : 10000 (cota superior) 
+ VERTICES : 4
+ ARISTAS_REQ : 3
+ ARISTAS_NOREQ : 0
+ VEHICULOS : 1
+ CAPACIDAD : 5
+ TIPO_COSTES_ARISTAS : EXPLICITOS
+ COSTE_TOTAL_REQ : 291
+ LISTA_ARISTAS_REQ :
+ ( 1, 2)  coste 1 demanda 1
+ ( 1, 3)  coste 2 demanda 1
+ ( 3, 4)  coste 3 demanda 1
+ 
+ DEPOSITO :   3

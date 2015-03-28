@@ -1,0 +1,615 @@
+VERTICES :  354
+ARISTAS_REQ :   226
+ARISTAS_NOREQ :    302
+VEHICULOS :  10
+CAPACIDAD :   3000
+TIPO_COSTES_ARISTAS : EXPLICITOS
+COSTE_TOTAL_REQ :   568008
+LISTA_ARISTAS_REQ :
+107 0 ( 115, 116) coste    13 demanda     2
+160 -1 ( 156, 101) coste    19 demanda     2
+161 -1 ( 101, 156) coste    19 demanda     2
+168 0 ( 159, 160) coste    73 demanda     6
+169 0 ( 161, 162) coste    48 demanda     4
+170 1 ( 162, 160) coste    42 demanda     4
+171 1 ( 160, 161) coste    53 demanda     5
+184 -1 ( 147, 173) coste    12 demanda     2
+185 1 ( 147, 173) coste    15 demanda     2
+186 -1 ( 112, 174) coste    42 demanda     4
+187 1 ( 113, 174) coste    46 demanda     4
+188 -1 ( 175, 101) coste    23 demanda     2
+189 -1 ( 101, 175) coste    20 demanda     2
+202 0 ( 186, 187) coste    14 demanda     2
+203 0 ( 188, 189) coste    42 demanda     4
+204 0 ( 190, 191) coste   713 demanda    58
+205 0 ( 192, 193) coste    89 demanda     8
+206 0 ( 194, 195) coste    56 demanda     5
+207 0 ( 196, 197) coste  1074 demanda    86
+208 0 ( 198, 199) coste  1198 demanda    96
+209 0 ( 200, 198) coste    29 demanda     3
+210 0 ( 201, 202) coste   698 demanda    56
+211 0 (  84,  83) coste    16 demanda     2
+212 0 (  46,  84) coste   225 demanda    19
+213 0 ( 203, 204) coste   663 demanda    54
+216 0 ( 208, 209) coste    18 demanda     2
+217 0 ( 182, 208) coste   469 demanda    38
+218 0 ( 210, 211) coste    18 demanda     2
+222 0 ( 214, 106) coste    27 demanda     3
+223 0 ( 215, 216) coste    88 demanda     8
+224 0 ( 217, 216) coste   188 demanda    16
+225 0 ( 216, 218) coste   213 demanda    18
+226 0 ( 219, 220) coste    22 demanda     2
+227 0 ( 221, 219) coste    25 demanda     3
+228 0 ( 200, 222) coste    44 demanda     4
+229 0 ( 198, 222) coste    29 demanda     3
+230 -1 ( 223,  75) coste    32 demanda     3
+231 1 ( 223,  75) coste    35 demanda     3
+232 1 ( 224,  75) coste    21 demanda     2
+233 -1 ( 224,  75) coste    25 demanda     3
+234 -1 ( 225,  75) coste    24 demanda     2
+235 -1 (  75, 225) coste    25 demanda     3
+236 0 ( 226, 115) coste    22 demanda     2
+237 0 ( 226, 116) coste    25 demanda     3
+238 0 ( 227, 228) coste    47 demanda     4
+239 0 ( 227, 229) coste    12 demanda     2
+240 0 ( 230, 231) coste    36 demanda     3
+241 0 ( 230, 232) coste    32 demanda     3
+244 0 ( 211, 234) coste    17 demanda     2
+245 0 ( 210, 234) coste    18 demanda     2
+246 1 ( 235, 236) coste   108 demanda     9
+247 1 ( 236, 237) coste    30 demanda     3
+250 0 ( 240,  56) coste    15 demanda     2
+251 0 ( 241, 242) coste   965 demanda    78
+252 0 ( 243, 244) coste    21 demanda     2
+253 0 ( 188, 245) coste    28 demanda     3
+254 0 ( 245, 189) coste    52 demanda     5
+255 0 ( 246, 247) coste   200 demanda    17
+256 0 ( 248, 249) coste    13 demanda     2
+257 0 ( 250, 248) coste    66 demanda     6
+258 0 ( 251, 250) coste    56 demanda     5
+259 0 ( 249, 251) coste    40 demanda     4
+260 0 ( 252, 221) coste   159 demanda    13
+261 0 ( 221, 220) coste    26 demanda     3
+262 0 ( 193, 253) coste    97 demanda     8
+263 0 ( 191, 254) coste     7 demanda     1
+264 0 ( 255, 256) coste    47 demanda     4
+265 0 ( 257, 256) coste    72 demanda     6
+266 0 ( 255, 257) coste    59 demanda     5
+267 0 ( 258, 259) coste   965 demanda    78
+268 0 ( 107, 214) coste    21 demanda     2
+269 0 (  58,  59) coste    13 demanda     2
+270 -1 ( 127, 129) coste    19 demanda     2
+272 0 ( 262, 263) coste    30 demanda     3
+273 0 ( 228, 229) coste    49 demanda     4
+274 0 ( 264, 265) coste    20 demanda     2
+275 0 ( 266, 267) coste    21 demanda     2
+276 0 ( 268, 266) coste   687 demanda    55
+277 0 ( 231, 232) coste    60 demanda     5
+278 0 ( 269, 270) coste   775 demanda    63
+281 0 ( 272, 273) coste    54 demanda     5
+282 0 ( 274, 275) coste    91 demanda     8
+283 0 ( 276, 277) coste   267 demanda    22
+284 0 ( 278, 279) coste  3317 demanda   266
+285 0 ( 280, 281) coste   805 demanda    65
+289 0 ( 282, 283) coste    23 demanda     2
+290 0 ( 283, 237) coste    30 demanda     3
+292 0 ( 283, 236) coste    19 demanda     2
+293 0 ( 282, 235) coste   115 demanda    10
+297 0 ( 263, 262) coste    41 demanda     4
+299 0 ( 266, 267) coste    36 demanda     3
+301 0 (  56, 285) coste   426 demanda    35
+303 0 ( 286, 287) coste  1048 demanda    84
+304 0 ( 192, 253) coste    96 demanda     8
+305 0 ( 258, 105) coste  1797 demanda   144
+306 0 ( 288, 108) coste   254 demanda    21
+307 0 ( 110, 262) coste   829 demanda    67
+308 0 ( 289, 290) coste   208 demanda    17
+309 0 ( 290, 291) coste   200 demanda    17
+310 0 ( 120, 292) coste   425 demanda    35
+311 0 ( 218, 293) coste  1564 demanda   126
+312 0 ( 293, 294) coste   446 demanda    36
+313 0 ( 264, 229) coste  2684 demanda   215
+315 0 ( 273, 295) coste   123 demanda    10
+316 0 ( 296, 297) coste  1407 demanda   113
+338 0 ( 156, 289) coste   361 demanda    29
+339 0 ( 289, 291) coste   153 demanda    13
+343 0 ( 185, 308) coste  2556 demanda   189
+344 0 ( 187, 309) coste   493 demanda    40
+345 0 ( 158, 247) coste  4433 demanda   355
+346 0 ( 310, 244) coste   295 demanda    24
+347 0 ( 252, 247) coste  1049 demanda    84
+350 0 ( 199, 194) coste  3286 demanda   263
+351 0 ( 197, 194) coste   979 demanda    79
+352 0 ( 311, 200) coste   947 demanda    76
+353 0 ( 312, 313) coste   705 demanda    57
+356 0 ( 314,  36) coste   149 demanda     9
+358 0 ( 315, 204) coste  4266 demanda   342
+364 0 ( 309, 285) coste  1225 demanda    99
+365 0 ( 318, 242) coste  2261 demanda   110
+366 0 ( 250, 246) coste   647 demanda    52
+367 0 ( 220, 248) coste   392 demanda    32
+368 0 ( 199, 196) coste  2916 demanda   234
+369 0 ( 256, 279) coste  1419 demanda   114
+371 -1 ( 288, 111) coste   629 demanda    51
+373 0 ( 131, 319) coste   801 demanda    65
+374 0 ( 319, 224) coste   346 demanda    28
+375 0 ( 312, 202) coste   931 demanda    75
+377 0 ( 260, 320) coste   217 demanda    18
+379 0 ( 321, 322) coste  1065 demanda    86
+380 0 ( 321, 321) coste   324 demanda    26
+381 0 ( 218, 121) coste   932 demanda    75
+382 0 ( 292, 323) coste  2436 demanda   195
+386 0 ( 324, 325) coste  3064 demanda   246
+389 0 ( 274, 296) coste  2383 demanda   191
+396 0 ( 162, 118) coste   251 demanda    21
+404 0 ( 330, 259) coste  1400 demanda   113
+405 0 ( 259, 278) coste   301 demanda    25
+406 0 ( 312, 202) coste   673 demanda    54
+410 0 ( 331, 203) coste   970 demanda    78
+417 0 ( 235, 212) coste  2737 demanda   219
+418 0 ( 239, 237) coste  3516 demanda   282
+419 0 ( 333, 241) coste  1411 demanda    94
+420 0 ( 243, 242) coste  3593 demanda   288
+421 0 ( 252, 245) coste  2251 demanda   181
+423 0 ( 251, 329) coste  4100 demanda   307
+424 0 ( 222, 279) coste  3034 demanda   243
+425 0 ( 311, 313) coste  4824 demanda   386
+426 0 ( 214, 334) coste  4432 demanda   355
+427 0 ( 288, 335) coste  2006 demanda   161
+428 0 ( 324,  58) coste  1891 demanda   152
+429 0 ( 319,  59) coste  2526 demanda   203
+430 0 ( 238, 127) coste  3167 demanda   254
+431 0 ( 225,  77) coste  1440 demanda   116
+432 0 ( 320, 263) coste  2428 demanda   195
+433 0 ( 322, 336) coste   321 demanda    26
+434 0 ( 292, 322) coste  2104 demanda   169
+435 0 ( 294, 337) coste   590 demanda    48
+436 0 ( 338, 293) coste  1521 demanda   122
+438 0 ( 249, 228) coste  1783 demanda   143
+440 0 ( 227, 264) coste  3734 demanda   299
+441 0 ( 339, 268) coste  1395 demanda   110
+442 0 ( 340, 268) coste  1388 demanda   112
+443 0 ( 163, 233) coste   991 demanda    24
+444 0 ( 234, 295) coste  3360 demanda   269
+451 0 ( 336, 159) coste   216 demanda    18
+452 0 ( 343, 336) coste  3396 demanda   265
+454 0 ( 344, 171) coste  1799 demanda    17
+455 0 ( 345, 195) coste  3203 demanda   257
+456 0 ( 287, 308) coste  2287 demanda   184
+457 0 ( 287, 310) coste  2061 demanda   165
+458 0 ( 191, 192) coste  2059 demanda   165
+459 0 ( 346,  83) coste  1052 demanda    85
+460 0 ( 203, 314) coste  1725 demanda   139
+462 0 ( 265, 252) coste  3929 demanda   315
+463 0 ( 285,  76) coste  4525 demanda   363
+464 0 ( 246, 219) coste   819 demanda    66
+465 0 ( 324, 190) coste  5572 demanda   446
+466 0 ( 257, 258) coste  3116 demanda   250
+467 0 ( 109, 255) coste  5400 demanda   433
+468 0 ( 201, 240) coste  5546 demanda   444
+469 0 ( 335, 348) coste  7745 demanda   620
+470 0 ( 331, 204) coste   861 demanda    69
+471 0 ( 159, 290) coste  1723 demanda   138
+472 0 ( 349, 294) coste  1301 demanda   105
+473 0 ( 269, 339) coste  3491 demanda    23
+474 0 ( 275, 269) coste  5127 demanda   411
+475 0 ( 340, 350) coste  4596 demanda   253
+476 0 ( 273, 295) coste  1014 demanda    82
+481 0 ( 318, 286) coste  6720 demanda   416
+484 0 ( 291, 161) coste   635 demanda    51
+486 0 ( 352, 157) coste  2591 demanda    44
+488 0 ( 344, 196) coste  6218 demanda   444
+489 0 ( 189, 173) coste  4417 demanda   344
+490 0 ( 193, 188) coste  2787 demanda   223
+491 0 ( 244, 190) coste  5049 demanda   404
+492 0 ( 278, 195) coste  6892 demanda   552
+493 0 ( 313, 344) coste  9306 demanda   701
+494 0 ( 174, 186) coste  5000 demanda   307
+495 0 ( 346, 299) coste   581 demanda    47
+496 0 ( 300, 114) coste   765 demanda    46
+497 0 ( 341, 314) coste  3121 demanda    42
+498 0 ( 175, 331) coste  1039 demanda    84
+499 0 ( 325, 265) coste  7860 demanda   587
+500 0 ( 309, 211) coste  3134 demanda    39
+501 0 ( 286, 310) coste  4916 demanda   394
+502 0 ( 286, 308) coste  4696 demanda   376
+503 0 ( 243, 241) coste  4822 demanda   386
+504 0 ( 253, 328) coste  4651 demanda   373
+505 0 ( 271, 223) coste  7799 demanda   622
+506 0 ( 346, 226) coste  2607 demanda   209
+507 0 ( 320, 335) coste  6782 demanda   543
+508 0 ( 342, 260) coste  3453 demanda   277
+509 0 ( 275, 339) coste  5038 demanda   390
+510 0 ( 353, 232) coste 10759 demanda   651
+511 0 ( 233, 231) coste  4545 demanda   210
+512 0 ( 351,  90) coste  6057 demanda   485
+513 0 ( 296, 340) coste  5028 demanda   388
+515 0 ( 354, 327) coste  4479 demanda   149
+516 0 ( 328, 333) coste  6121 demanda   171
+520 0 (  46, 311) coste 10951 demanda   877
+521 0 ( 114, 201) coste  8448 demanda   676
+522 0 ( 210, 166) coste  6880 demanda   348
+523 0 ( 267, 230) coste  4621 demanda   320
+524 0 ( 352, 274) coste  9253 demanda   741
+526 0 ( 205, 353) coste  7673 demanda   174
+LISTA_ARISTAS_NOREQ :
+0  -1 (   1,   2) coste    97
+1  1 (   1,   3) coste    44
+2  1 (   4,   5) coste    39
+3  -1 (   6,   7) coste   130
+4  1 (   5,   8) coste   131
+5  0 (   9,  10) coste    17
+6  0 (  11,  12) coste    13
+7  0 (  13,  14) coste    12
+8  0 (  15,  16) coste    10
+9  0 (  17,  18) coste    14
+10  0 (  19,  20) coste    11
+11  0 (  21,  22) coste    11
+12  0 (  23,  24) coste    16
+13  0 (  25,  26) coste    12
+14  0 (  27,  28) coste    11
+15  -1 (  29,  30) coste    22
+16  -1 (  30,  31) coste    23
+17  -1 (  32,  33) coste    19
+18  -1 (  33,  32) coste    20
+19  0 (  34,  35) coste    12
+20  0 (  30,  36) coste   147
+21  -1 (  37,  38) coste    96
+22  -1 (  39,  37) coste   175
+23  1 (  40,  41) coste    62
+24  -1 (  40,  42) coste    51
+25  0 (  43,  37) coste    92
+26  0 (  44,  45) coste    15
+27  0 (  46,  40) coste   195
+28  1 (  47,  35) coste   551
+29  1 (  48,  34) coste   384
+30  1 (  35,  48) coste   377
+31  1 (  39,  47) coste   637
+32  1 (  49,  50) coste   759
+33  -1 (  38,  51) coste   131
+34  1 (  50,  52) coste   220
+35  -1 (  39,  38) coste   207
+36  -1 (  53,  11) coste   436
+37  -1 (  11,  54) coste   166
+38  -1 (  16,  55) coste   154
+39  -1 (  55,  56) coste   531
+40  1 (  18,  57) coste    34
+41  -1 (  20,  58) coste  1277
+42  1 (  19,  59) coste  1278
+43  1 (  60,  58) coste  1678
+44  1 (  61,  62) coste    59
+45  -1 (  17,  63) coste   114
+46  1 (  57,  61) coste   200
+47  1 (  62,  64) coste     9
+48  -1 (  65,  24) coste   114
+49  1 (  66,  67) coste    20
+50  1 (  68,  23) coste    74
+51  -1 (  24,  67) coste   165
+52  1 (  23,  69) coste   176
+53  1 (  69,  70) coste    80
+54  1 (  71,  72) coste    41
+55  -1 (  73,  74) coste    19
+56  -1 (  74,  70) coste   108
+57  -1 (  66,  72) coste   152
+58  -1 (  75,  73) coste   971
+59  1 (  22,  76) coste   707
+60  -1 (  21,  77) coste   702
+61  -1 (  78,  27) coste   471
+62  1 (  79,  28) coste   463
+63  -1 (  80,  81) coste   340
+64  1 (  82,  83) coste   116
+65  1 (  84,  82) coste   124
+66  1 (  83,  45) coste    95
+67  1 (  41,  84) coste    38
+68  1 (  44,  41) coste    49
+69  1 (  42,  44) coste    37
+70  1 (  45,  85) coste   221
+71  1 (  85,  42) coste   186
+72  -1 (  86,  87) coste    54
+73  -1 (  87,  88) coste   199
+74  -1 (  88,  89) coste   193
+75  1 (  90,  89) coste   703
+76  -1 (  90,  86) coste   667
+77  1 (  34,  49) coste   549
+78  1 (  91,  92) coste    29
+79  1 (  92,  91) coste    28
+80  1 (  65,  63) coste   228
+81  -1 (  68,  93) coste   367
+82  -1 (  80,  94) coste    30
+83  1 (  95,  96) coste    41
+84  1 (  96,  97) coste    46
+85  1 (  80,  98) coste    45
+86  -1 (  80,  98) coste    43
+87  -1 (  94,  80) coste    37
+88  1 (  99, 100) coste    28
+89  1 ( 100,  99) coste    28
+90  -1 ( 101, 102) coste    20
+91  -1 ( 103, 101) coste    20
+92  -1 ( 102, 101) coste    23
+93  1 ( 103, 101) coste    19
+94  1 (  52,  10) coste   256
+95  0 ( 104, 105) coste  1444
+96  0 ( 106, 107) coste    20
+97  0 ( 108, 109) coste   224
+98  0 ( 110, 111) coste   132
+99  -1 (  95,  80) coste   139
+100  -1 (  97,  95) coste    45
+101  -1 (  80,  78) coste   264
+102  -1 (  78,  79) coste    50
+103  -1 ( 112, 113) coste    36
+104  -1 (  79, 112) coste    11
+105  -1 ( 113,  97) coste   157
+106  0 ( 114,  96) coste  1595
+108  0 ( 117,  29) coste   118
+109  0 (  29,  31) coste    18
+110  0 (  81,  31) coste   905
+111  0 (   2,   3) coste    98
+112  0 ( 118, 119) coste    52
+113  0 ( 120, 121) coste   146
+114  0 ( 122, 120) coste  2714
+115  -1 (  51, 123) coste     6
+116  0 ( 124, 119) coste   217
+117  1 ( 125,  73) coste    25
+118  1 ( 126,  67) coste    23
+119  1 ( 126,  66) coste    18
+120  0 ( 127, 128) coste    17
+121  -1 ( 128, 129) coste    12
+122  1 ( 130, 126) coste     7
+123  1 (  66, 130) coste    25
+124  0 (  69,  66) coste    17
+125  0 (  74,  71) coste    17
+126  -1 ( 131,  70) coste   109
+127  -1 ( 129,  72) coste   154
+128  0 ( 128, 130) coste     7
+129  1 ( 125,  74) coste    17
+130  1 ( 131, 125) coste    16
+131  1 ( 132, 133) coste    53
+132  1 ( 133, 134) coste    76
+133  1 ( 134, 133) coste    68
+134  -1 ( 135, 136) coste    91
+135  -1 ( 137, 138) coste    65
+136  -1 ( 139, 140) coste   310
+137  -1 ( 141, 142) coste   137
+138  1 ( 143,   4) coste   134
+139  -1 ( 132, 133) coste    56
+140  1 ( 144,  48) coste    22
+141  1 (  48, 144) coste    18
+142  -1 ( 145,  91) coste    25
+143  -1 (  91, 145) coste    23
+144  1 (  91, 146) coste    27
+145  -1 (  91, 146) coste    24
+146  1 ( 147, 148) coste    29
+147  -1 ( 147, 148) coste    31
+148  1 ( 149, 147) coste    26
+149  1 ( 147, 149) coste    28
+150  -1 ( 100, 150) coste    29
+151  1 ( 100, 150) coste    30
+152  -1 ( 151, 152) coste    30
+153  1 ( 151, 152) coste    27
+154  -1 (  33, 153) coste    32
+155  -1 (  33, 154) coste    40
+156  -1 ( 153,  33) coste    36
+157  -1 ( 155, 152) coste    25
+158  1 ( 155, 152) coste    26
+159  -1 ( 154,  33) coste    41
+162  1 (  89,  87) coste    44
+163  -1 (  86, 157) coste    63
+164  1 (  87, 157) coste    37
+165  0 (  49,  47) coste     7
+166  0 ( 158, 149) coste   100
+167  0 (  36, 117) coste   105
+172  0 ( 163, 143) coste   675
+173  0 ( 164, 165) coste   186
+174  0 ( 165, 163) coste   489
+175  0 ( 166, 167) coste    70
+176  1 ( 168, 133) coste    59
+177  -1 ( 168, 133) coste    54
+178  -1 ( 169, 170) coste    34
+179  1 ( 170, 171) coste    41
+180  -1 ( 170, 171) coste    42
+181  1 ( 169, 170) coste    30
+182  1 ( 147, 172) coste    39
+183  -1 ( 147, 172) coste    35
+190  1 ( 176, 177) coste    38
+191  1 ( 178, 176) coste    47
+192  -1 ( 178, 176) coste    42
+193  1 ( 177, 176) coste    44
+194  -1 ( 179, 180) coste    33
+195  -1 ( 180, 181) coste    42
+196  -1 ( 181, 180) coste    41
+197  1 ( 179, 180) coste    35
+198  1 (   4, 182) coste    46
+199  0 ( 123,  52) coste    17
+200  0 (  52, 183) coste   189
+201  0 ( 184, 185) coste    26
+214  0 ( 205, 206) coste    47
+215  0 ( 206, 207) coste   136
+219  0 ( 185, 212) coste    14
+220  0 ( 184, 212) coste    29
+221  0 ( 197, 213) coste     4
+242  -1 ( 167, 233) coste    46
+243  -1 ( 233, 167) coste    49
+248  0 ( 238, 239) coste    11
+249  0 (  77,  76) coste    13
+271  0 ( 260, 261) coste     7
+279  1 ( 164, 271) coste   208
+280  0 ( 271, 165) coste    70
+286  -1 ( 143,   6) coste   168
+287  0 (   6,   5) coste    16
+288  0 (   5, 182) coste    24
+291  0 (  54, 282) coste   101
+294  -1 (   7, 284) coste   176
+295  1 (  16, 187) coste  1174
+296  -1 (  15, 186) coste  1186
+298  1 (  64,  60) coste  1072
+300  -1 (  93,  59) coste  2449
+302  -1 (  75,  21) coste   630
+314  -1 (  81,  80) coste   350
+317  0 (  40,  44) coste    15
+318  0 ( 207, 298) coste    58
+319  0 ( 114,  82) coste  1018
+320  0 ( 299, 300) coste   164
+321  0 (   3, 117) coste   220
+322  0 ( 102, 118) coste  1268
+323  0 ( 121, 119) coste  1373
+324  -1 ( 301, 135) coste   342
+325  -1 ( 136, 139) coste   122
+326  -1 ( 302, 303) coste   272
+327  -1 ( 138, 141) coste   157
+328  -1 ( 303, 304) coste    90
+329  -1 ( 304, 301) coste   178
+330  -1 ( 140, 137) coste   177
+331  -1 ( 305, 302) coste   117
+332  -1 ( 142, 305) coste   117
+333  1 (   8, 208) coste   407
+334  -1 ( 284, 284) coste   424
+335  0 (  32,   1) coste   186
+336  0 ( 117, 153) coste   227
+337  0 ( 154, 155) coste   219
+340  0 (  50, 183) coste   294
+341  0 (  43, 123) coste   320
+342  0 ( 306, 307) coste   116
+348  -1 ( 123,   9) coste   249
+349  -1 (  54,  10) coste  2872
+354  -1 ( 239,  53) coste  2887
+355  -1 (  77,  13) coste  2000
+357  -1 (  14,  76) coste  1989
+359  1 (  14,  56) coste  1912
+360  -1 (  13, 240) coste  1902
+361  -1 ( 240,  15) coste   696
+362  0 ( 316, 307) coste   365
+363  0 ( 317, 207) coste   402
+370  -1 (  63,  93) coste   494
+372  1 (  65,  61) coste   486
+376  -1 (  68,  57) coste   585
+378  1 (  75,  71) coste   988
+383  1 (  25,  27) coste  2899
+384  -1 (  26,  28) coste  2887
+385  1 (  20, 209) coste  3520
+387  1 ( 208,  19) coste  3528
+388  -1 ( 284, 209) coste   348
+390  0 ( 111, 108) coste   836
+391  0 (  85, 115) coste  1578
+392  0 ( 326,  49) coste   242
+393  0 ( 144, 327) coste   906
+394  0 ( 148, 328) coste  1973
+395  0 ( 150, 151) coste   475
+397  0 ( 136, 329) coste   177
+398  0 ( 132, 329) coste  1536
+399  0 ( 167, 164) coste   342
+400  0 ( 270, 166) coste   378
+401  0 ( 183, 184) coste   596
+402  0 ( 306,  43) coste   314
+403  1 (  12,   9) coste  3031
+407  1 ( 238,  12) coste  3336
+408  -1 ( 238,  17) coste  2613
+409  1 ( 239,  18) coste  2615
+411  0 ( 168, 332) coste  2171
+412  0 ( 177, 332) coste   672
+413  0 ( 205, 181) coste   479
+414  1 ( 187,  25) coste  1679
+415  0 ( 209, 325) coste  1163
+416  -1 ( 186,  26) coste  1667
+422  1 (  75,  22) coste   639
+437  0 ( 136, 332) coste  1522
+439  -1 ( 206, 298) coste   376
+445  0 ( 116, 110) coste  3000
+446  0 ( 341,  94) coste  2140
+447  0 ( 342, 299) coste   474
+448  0 (   2, 103) coste  3142
+449  0 (  88, 272) coste  1879
+450  -1 ( 327,  47) coste   395
+453  0 ( 306, 169) coste  1055
+461  0 ( 347, 179) coste   555
+477  0 ( 107, 109) coste  1718
+478  0 ( 341, 351) coste  3255
+479  0 ( 300,  98) coste  1529
+480  0 (  99, 342) coste   440
+482  0 ( 318, 333) coste  3906
+483  0 ( 158, 145) coste  1227
+485  0 ( 270, 352) coste  4122
+487  0 ( 307, 327) coste   727
+514  0 ( 351, 272) coste  3415
+517  0 ( 146, 134) coste  3382
+518  0 ( 353, 305) coste  1766
+519  0 ( 172,  92) coste  2134
+525  0 ( 105, 106) coste  7419
+527  0 ( 298, 178) coste  7362
+DEPOSITO : 212
+DEPOSITO : 225
+DEPOSITO : 314
+DEPOSITO : 329
+MANDATORY :
+(  27,  24)
+(  34,  94)
+(  41,  43)
+(  42, 300)
+(  64,  66)
+(  67,  65)
+( 115, 348)
+( 167, 336)
+( 319, 106)
+( 321, 108)
+( 334, 294)
+( 355,  60)
+( 357,  59)
+( 408, 407)
+( 409, 354)
+( 416, 296)
+NOTURN :
+(   1, 111)
+(  15, 109)
+(  16,  15)
+(  17,  18)
+(  21,  22)
+(  23,  68)
+(  31, 165)
+(  65,  64)
+(  69, 317)
+(  70,  71)
+(  74,  73)
+(  77, 165)
+(  78,  79)
+(  83,  84)
+(  85,  86)
+(  87,  82)
+(  89,  88)
+(  91,  93)
+(  92,  90)
+( 109,  16)
+( 119,  57)
+( 123, 122)
+( 132, 133)
+( 139, 131)
+( 141, 140)
+( 142, 143)
+( 144, 145)
+( 146, 147)
+( 149, 148)
+( 151, 150)
+( 152, 153)
+( 156, 154)
+( 157, 158)
+( 159, 155)
+( 160, 161)
+( 164, 163)
+( 177, 176)
+( 178, 181)
+( 179, 180)
+( 182, 183)
+( 185, 184)
+( 187, 186)
+( 188, 189)
+( 190, 193)
+( 192, 191)
+( 194, 197)
+( 196, 195)
+( 230, 231)
+( 233, 232)
+( 234, 235)
+( 242, 243)
+( 286, 138)
+( 291, 349)
+( 314,  63)
+( 317,  23)
+( 325, 134)
